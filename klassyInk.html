@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>KlassyInk</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<header>
+	<nav>
+		<div class="logo">
+				<a href="https://www.facebook.com/klassyink/" class="fa fa-facebook"></a>
+				<a href="https://www.facebook.com/klassyink/" class="fa fa-twitter"></a>
+				<a href="https://www.instagram.com/klassyinkofficial/" class="fa fa-instagram"></a>
+				<a href="https://www.facebook.com/klassyink/" class="fa fa-google"></a>
+				<a href="https://www.youtube.com/channel/UClKspfHgCTxb5wfXuHFev7Q" class="fa fa-youtube"></a>
+				<a href="https://www.facebook.com/klassyink/" class="fa fa-pinterest"></a>
+				<a href="https://www.facebook.com/klassyink/" class="fa fa-linkedin"></a>
+		</div> 
+			<div class="menu">
+				<a href="https://www.klassyink.com/careers/">Careers</a>
+				<a href="about-us.html">Shopping Cart</a>
+				<a href="CollegeForm.html">Signup</a>
+				<a href="CollegeForm.html">Login</a>
+			</div>
+	</nav>
+	<div class="home">
+		<a href="https://www.klassyink.com/"><img src="logo.png" style='cursor:pointer'></a>
+			<a href="https://www.klassyink.com/">Home</a>
+				<a href="about-us.html">Products</a>
+				<a href="login.html">Categories</a>
+				<a href="https://www.klassyink.com/klassyink-blog/">Blog</a>
+				<a href="https://www.klassyink.com/careers/">Careers</a>
+				<a href="https://www.klassyink.com/contact-us/">Contact Us</a>
+				<a href="login.html">My Account</a>
+				<img src="cart2.png" alt="" height="40" width="50">
+				<img src="search.png" alt="" height="40" width="50">
+	</div>
+	<br></br>	
+	<div class="slideshow">				
+
+  	<div class="mySlides fade">
+    	
+    	<img src="pic1.jpg" style="width:100%">
+  	</div>
+  	<div class="mySlides fade">
+    	<img src="pic3.jpg" style="width:100%">
+ 	 </div>
+ 	<div class="mySlides fade">
+    	<img src="pic4.jpg" style="width:100%">
+  	</div>
+  	<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  	<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+	<div style="text-align:center">
+  	<span class="dot" onclick="currentSlide(1)"></span>
+  	<span class="dot" onclick="currentSlide(2)"></span>
+  	<span class="dot" onclick="currentSlide(3)"></span>
+	</div>
+</div>
+<br></br>
+<div class="sec1" style='cursor:pointer'></div>
+<div class="sec2" style='cursor:pointer'></div>	
+<div class="sec3"style='cursor:pointer' ></div>
+<div class="sec4" style='cursor:pointer'></div>
+<div class="sec5" style='cursor:pointer'></div>
+<br></br>
+<div class="redsec">
+	<h2 align="center"><u>Innovation in</u></h2>
+	<h3 align="left">Pricing  Quality  Design</h3>
+	<p id="one" align="left">We cut out the middleman to make <br>everyday fashion affordable</p>
+    <p id ="two" align="center">We manufacture our own products <br>to ensure you get the best </p>
+    <p id="three" align="right">We create designs that<br> are an extension of you</p>
+    <p id="four" align="center">Learn More</p>
+	<i style="font-size:24px" class="fa">&#xf105;</i>
+</div>
+<br></br>
+<h1 align="center">---------------------------------------------OUR MOST RECENT BLOGS-----------------------------------------</h1>
+<div class="blog1" align="left">
+	<img src="blog1.jpg" alt="" align="left" width="430px" height="250px">
+	<h4 align="left">HOW KlassyInk GOT ITS NAME !<h4>
+</div>
+<div class="blog2" align="center">
+	<img src="blog2.jpg" alt="" width="450px" height="250px">
+	<h4 align="center">KlassyInk GETS FEATURED IN THE <br>‘Ideapreneur India E-Magazine’!</h4>
+</div>
+<div class="blog3" align="right">
+	<img src="bog3.jpg" alt="" align="right" width="400px" height="250px">
+	<h4 align="right">THE STORY BEHIND OUR LOGO COLOR!</h4>
+</div>
+<br>
+<div class='yellowsec'>
+	<h2 align="center">FAN PAGE</h2>
+	<h4 align="left">GET DISCOUNTS EVERYDAY TO <br><br>YOUR EMAIL</h4>
+	<img src="https://www.klassyink.com/wp-content/uploads/2015/09/fanhogaya-300x114.jpg" alt="" >
+	<input type="text" placeholder="Insert your Email" name="Email">
+	<button type="button" style='cursor:pointer' onclick="alert('Hello world!')">SEND</button>
+	<h5 align="right">FOLLOW US ON SOCIAL MEDIA</h5>
+	<i style="font-size:24px" class="fa" >&#xf099;</i>
+	<i style="font-size:24px" class="fa">&#xf16d;</i>
+	<i style="font-size:24px" class="fa">&#xf0d5;</i>
+	<i style="font-size:24px" class="fa">&#xf0d2;</i>
+	<i style="font-size:24px" class="fa">&#xf16a;</i>
+	<i style="font-size:24px" class="fa">&#xf0e1;</i>
+	<i style="font-size:24px" class="fa" >&#xf09a;</i>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</header>
+</body>
+</html>
